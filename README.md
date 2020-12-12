@@ -277,3 +277,4 @@ _*Se debe pasar el query string de búsqueda por la URL._
 ## Expresiones de Gratitud 🎁
 
 * Gracias a Franco Di Leo por sus clases y a toda la comunidad porque siempre comparten el conocimiento. 
+* Agradecimiento especial a Daniel Rinaldi porque fue el primero que me introdujo en el mundo API REST.
