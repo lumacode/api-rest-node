@@ -7,7 +7,7 @@ _En la próxima versión se adicionarán nuevas funcionalidades como editar usua
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-No olvides instalar los **node_modules** 🤙.
+No olvides instalar los **node_modules** 🤙
 
 ### Pre-requisitos 📋
 
@@ -122,7 +122,7 @@ _Para editar un artículo enviar un json a http://localhost:3900/api/article/id_
 
 
 _Esta ruta es protegida por lo que deberás enviar en los headers con la clave **Authorization** el JWT obtenido en el login:_
-_Ejemplo de petición por método **POST**:_
+_Ejemplo de petición por método **PUT**:_
 
 ```
 
