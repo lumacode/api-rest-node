@@ -151,6 +151,26 @@ _Respuesta de ejemplo:_
 
 ```
 
+## Borrar un artículo ❌
+
+_Para eliminar un artículo enviar petición a http://localhost:3900/api/article/id_
+
+
+_Esta ruta es protegida por lo que deberás enviar en los headers con la clave **Authorization** el JWT obtenido en el login:_
+_Petición por método **DELETE**:_
+
+_Respuesta de ejemplo:_
+
+```
+
+{
+    "status": "success",
+    "message": "El articulo: 5fb5322883b8700be4d9877c ha sido eliminado."
+}
+
+```
+_*Se debe pasar el _id del artículo que se quiere eliminar._
+
 ## Listar todos los artículos 📋📋
 
 _Para listar todos los artículos enviar petición a http://localhost:3900/api/articles_
@@ -256,4 +276,4 @@ _*Se debe pasar el string de búsqueda por la URL._
 
 ## Expresiones de Gratitud 🎁
 
-* Gracias a Franco Di Leo por sus clases. 
+* Gracias a Franco Di Leo por sus clases y a toda la comunidad porque siempre comparten el conocimiento. 
