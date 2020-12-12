@@ -20,6 +20,6 @@ router.get('/articles/:last?', ArticleController.getArticles); //limit para saca
 router.get('/article/:id', ArticleController.getArticle);
 router.put('/article/:id', validateToken, validateSave,  ArticleController.update);
 router.delete('/article/:id', validateToken, ArticleController.delete);
-router.get('/search/:search', ArticleController.search);
+router.get('/search', ArticleController.search);
 
 module.exports = router; 

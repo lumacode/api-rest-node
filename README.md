@@ -229,11 +229,11 @@ _Respuesta de ejemplo:_
 
 
 ```
-_*Se debe pasar el _id del artículo que se busca._
+_*Se debe pasar el id del artículo que se busca._
 
 ## Buscar artículos 🔍
 
-_Para buscar artículos enviar petición a http://localhost:3900/api/search/string_
+_Para buscar artículos enviar petición a http://localhost:3900/api/search?data=string_
 
 _Petición por método **GET**:_
 
@@ -257,7 +257,7 @@ _Respuesta de ejemplo:_
 
 
 ```
-_*Se debe pasar el string de búsqueda por la URL._
+_*Se debe pasar el query string de búsqueda por la URL._
 
 ## Construido con 🛠️
 

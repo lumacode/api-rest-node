@@ -154,7 +154,7 @@ const controller = {
 
   search: (req, res) => {
     //Sacar el string a buscar
-    const searchString = req.params.search;
+    const searchString = req.query.data;
 
     //Find or
     Article.find({
