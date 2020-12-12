@@ -83,7 +83,7 @@ _Respuesta de ejemplo:_
 ```
 ## Crear artículo 📋
 
-_Para crear un nuevo artículo enviar un json a http://localhost:3900/api/save_
+_Para crear un nuevo artículo enviar un json a http://localhost:3900/api/article/save_
 
 
 _Esta ruta es protegida por lo que deberás enviar en los headers con la clave **Authorization** el JWT obtenido en el login:_
