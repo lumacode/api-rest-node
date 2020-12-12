@@ -21,7 +21,7 @@ TOKEN_SECRET=tuclavesecreta
 
 ```
 
-_La API utiliza mongodb por lo que deberás establecer la conexión con este motor de base de datos._
+_La API utiliza mongodb por lo que deberás establecer la conexión con este motor de base de datos dentro del fichero index.js encontrarás lo que necesitas._
 
 ## Recursos de la API REST 🔧
 
