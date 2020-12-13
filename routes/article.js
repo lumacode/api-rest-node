@@ -7,12 +7,6 @@ const router = express.Router();
 const validateToken = require('../middlewares/jwt');
 const validateSave = require('../middlewares/validate_input_article');
 
-
-
-const multipart = require('connect-multiparty');
-const md_upload = multipart({ uploadDir: './public/uploads/articles-img'});
-
-
 //Rutas produccion
 
 router.post('/article/save', validateToken, validateSave, ArticleController.save);
