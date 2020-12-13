@@ -81,6 +81,9 @@ _Respuesta de ejemplo:_
 }
 
 ```
+
+_*El token está configurado con una expiración de 1 hora._
+
 ## Crear artículo 📋
 
 _Para crear un nuevo artículo enviar un json a http://localhost:3900/api/article/save_
@@ -169,7 +172,7 @@ _Respuesta de ejemplo:_
 }
 
 ```
-_*Se debe pasar el _id del artículo que se quiere eliminar._
+_*Se debe pasar el id del artículo que se quiere eliminar._
 
 ## Listar todos los artículos 📋📋
 
