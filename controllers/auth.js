@@ -52,13 +52,14 @@ const controller = {
         const params = req.body;
 
             const user = await User.findOne({ email: params.email });
-            if (!user) return res.status(400).json({error: true, message: 'Credenciales incorrectas(e)'});
+            if (!user) return res.status(401).json({error: true, message: 'Credenciales incorrectas(e)'});
 
             const validatePassword = await bcrypt.compare(params.password, user.password);
-            if (!validatePassword) return res.status(400).json({error: true, message: 'Credenciales incorrectas'});
+            if (!validatePassword) return res.status(401).json({error: true, message: 'Credenciales incorrectas'});
 
             //Create token 
             const token = jwt.sign({
+                exp: Math.floor(Date.now() / 1000) + (60 * 60),
                 name: user.name,
                 id: user._id
             }, process.env.TOKEN_SECRET);
